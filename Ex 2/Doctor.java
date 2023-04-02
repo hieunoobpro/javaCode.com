@@ -30,15 +30,6 @@ public class Doctor extends Person{
     public void setWorkHours(int workHours) {
         this.workHours = workHours;
     }
-
-    @Override
-    public String toString() {
-        return "Doctor{" +
-                "specialty='" + specialty + '\'' +
-                ", workHours=" + workHours +
-                getName()+
-                getGender()+
-                getAge()+
-                '}';
+    
     }
 }
