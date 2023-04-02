@@ -16,10 +16,13 @@ public class Main {
         System.out.println("Độ dài cạnh hình vuông : ");
         hv.setSide(scanner.nextDouble());
         //gọi hàm tính chu vi và diện tích ở class HinhChuNhat bằng cách sử dụng object vừa mới được tạo là hcn
+        System.out.println("Chiều dài: " + hcn.getLength());
+        System.out.println("Chiều rộng: "+hcn.getWidth());
         System.out.println("Chu vi hình chữ nhật là : " + hcn.area());
         System.out.println("Diện tích hình chữ nhật là : " + hcn.perimeter());
+        System.out.println("Cạnh hình vuông: "+hv.getSide());
         System.out.println("Chu vi hình vuông là : " + hv.area());
-        System.out.println("Diện tích hình chữ nhật là: " + hv.perimeter());
+        System.out.println("Diện tích hình vuông là: " + hv.perimeter());
         System.out.println("----------------------end----------------------------");
         System.out.println("Chương trình này được đăng tại Freetuts.net");
     }
